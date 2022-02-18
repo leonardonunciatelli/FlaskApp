@@ -1,0 +1,8 @@
+NUNOTA - Nro. Coleta - PK (Int)
+NUNOTA - Nro. Único - Int
+NUMNOTA - Nro. Nota Venda - (Int)
+CODPARCTRANSP - Transportadora - Imp TGFPAR
+REDESPACHO - Redespacho - Imp TGFPAR
+CODPARC - Parceiro - Imp TGFPAR
+DTNEG - Dt. Negociação - Data
+CODEMP - Empresa
