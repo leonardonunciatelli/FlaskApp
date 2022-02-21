@@ -1,0 +1,22 @@
+<table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th>Cód. Empresa</th>
+        <th>Cód. Parceiro</th>
+        <th>Parceiro</th>
+        <th>Valor</th>
+        <th>Data</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for value in myData%}
+      <tr>
+        <td>{{ value[0] }}</td>
+        <td>{{ value[1] }}</td>
+        <td>{{ value[2] }}</td>
+        <td>{{ value[3] }}</td>
+        <td>{{ value[4] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
